@@ -36,7 +36,8 @@
 
 ## Usage
 
-1. **Catppuccin is included in Ghostty by default!** If you instead wish to manually import the latest themes directly from this repository, copy the contents of your flavor of choice from [`themes/`](./themes/) to the `themes/` subdirectory your [Ghostty configuration directory](https://ghostty.org/docs/config#file-location).
+1. Catppuccin is included in Ghostty by default!
+   - If you instead wish to manually import the latest themes directly from this repository (not required/recommended), copy the contents of your flavor of choice from [`themes/`](./themes/) to the `themes/` subdirectory your [Ghostty configuration directory](https://ghostty.org/docs/config#file-location).
 3. Set `theme = catppuccin-<flavor>` in your [Ghostty configuration *file*](https://ghostty.org/docs/config#file-location), where `<flavor>` is one of `latte`, `frappe`, `macchiato`, or `mocha`.
 4. Reload or restart Ghostty.
 
