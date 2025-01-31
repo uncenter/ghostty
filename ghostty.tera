@@ -24,5 +24,6 @@ palette = 15=#{{ if(cond=flavor.dark, t=subtext0.hex, f=surface1.hex) }}
 background = {{ base.hex }}
 foreground = {{ text.hex }}
 cursor-color = {{ rosewater.hex }}
+cursor-text = {{ base.hex }}
 selection-background = {{ overlay2 | mix(color=base, amount=0.2) | get(key="hex") }}
 selection-foreground = {{ text.hex }}
